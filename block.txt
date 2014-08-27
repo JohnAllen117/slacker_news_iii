@@ -1,0 +1,10 @@
+ <ol class="main_list">
+      <% @submission.each do |link| %>
+        <li>
+          <ul>
+            <li class="news_title"><a href= <%= "http://#{link[:url]}"%>><%= link[:description]%> (<%= link[:url]%>)</a></li>
+            <li class="comment_line"><p>73 points by<a href="/"> username</a> 1 hour ago <a href="#">18 comments</a></li>
+          </ul>
+        </li>
+      <% end%>
+    </ol>

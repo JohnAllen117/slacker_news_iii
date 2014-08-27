@@ -1,0 +1,28 @@
+<section class="news">
+<ol class="main_list">
+  <li>
+    <ul>
+      <li class="news_title"><a href= "<%= @articles[0]['url'] %>"><%= @articles[0]['title'] %></a></li>
+      <li class="comment_line"><p>73 points by<a href="/"> username</a> 1 hour ago 18 comments</p></li>
+    </ul>
+  </li>
+</ol>
+</section>
+<form action="/comments" id="comment_form" method=post>
+    <input type=hidden id="article_id" name="article_id" value="<%= @articles[0]['id'] %>">
+    <textarea id="comment_body" name="comment_body" form="comment_form"></textarea>
+    <br>
+
+  <input value="add comment" type=submit />
+</form>
+<section class="news">
+<ol class="main_list">
+  <% @comments.each do |comm| %>
+    <li>
+      <ul>
+        <li><%= comm['body'] %></li>
+      </ul>
+    </li>
+  <% end %>
+</ol>
+</section>
