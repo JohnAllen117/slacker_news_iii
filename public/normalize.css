@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\normalize.css">
+  </head>
+  <body>
+  <div id="wrapper">
+  <nav>
+    <ul>
+      <img id="logo" src="https://news.ycombinator.com/y18.gif" alt="hacker logo">
+      <li>Slacker News</li>
+      <li><a href="/">new</a></li>
+      <li><a href="/">comments</a></li>
+      <li><a href="/">show</a></li>
+      <li><a href="/">ask</a></li>
+      <li>jobs</li>
+      <li>submit</li>
+    </ul>
+  </nav>
+  <section class="news">
+    <ol class="main_list">
+      <li>
+        <ul>
+          <li class="news_title"><a href="https://www.firebase.com/blog/2013-08-15-firebase-leaves-beta-today.html">Firebase Leaves Beta Today (firebase.com)</a></li>
+          <li class="comment_line"><p>63 points by <a href="#">lyime</a> 56 minutes ago <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">Destructuring Assignment in ECMAScript 6 (fitzgeraldnick.com)</a></li>
+          <li class="comment_line"><p>5800 points by <a href="http://fitzgeraldnick.com/weblog/50/">SupaFreak</a> 1 hour ago <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">Introducing Stripe UK (stripe.com)</a></li>
+          <li class="comment_line"><p>37 points by <a href="https://stripe.com/blog/introducing-stripe-uk">SpencerDixion</a> 1 hour ago <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">Datomic in the browser (ragnard.github.io)</a></li>
+          <li class="comment_line"><p>55 points by <a href="http://ragnard.github.io/2013/08/12/datomic-in-the-browser.html">JarJar</a> 1 hour ago <a href="#">250k comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">Facebook App Outage Postmortem (facebook.com)</a></li>
+          <li class="comment_line"><p>76 points by <a href="https://developers.facebook.com/blog/post/2013/08/15/summary-of-the-august-13th-app-outage/">username</a> 23 hours ago <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">It's the real thing (lettersofnote.com)</a></li>
+          <li class="comment_line"><p>200 points by <a href="http://www.lettersofnote.com/2013/07/its-real-thing.html?m=1">IronMan</a> 2 hours ago <a href="#">3 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">The anatomy of the perfect technical interview from a former Amazon VP (firstround.com)</a></li>
+          <li class="comment_line"><p>1 points by <a href="http://www.washingtonpost.com/blogs/ask-the-post/wp/2013/08/15/editors-note/">DarthVader</a> just now... <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="news_title"><a href="/">Why does this Java program terminate despite appearing that it shouldn't? (stackoverflow.com)</a></li>
+          <li class="comment_line"><p>73 points by <a href="http://stackoverflow.com/questions/16159203/why-does-this-java-program-terminate-despite-that-appears-that-it-shouldt-and">username</a> 1 hour ago <a href="#">18 comments</a></li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <footer>
+    <ul id="footer_navigation">
+      <li><a href="/">Guidelines</a></li>
+      <li><a href="/">FAQ</a></li>
+      <li><a href="/">Lists</a></li>
+      <li><a href="/">Bookmarklet</a></li>
+      <li><a href="/">DMCA</a></li>
+      <li><a href="/">News News</a></li>
+      <li><a href="/">Bugs and Feature Requests</a></li>
+      <li><a href="/">Y Combinator</a></li>
+      <li><a href="/">Apply</a></li>
+      <li><a href="/">Library</a></li>
+      <li><a href="/">Contact</a></li>
+    </ul>
+
+    <form id="searchbox" action="">
+     <input id="search" type="text" placeholder="Search . . .">
+    </form>
+  </footer>
+
+
+
+  </div>
+  </body>
+</html>
